@@ -1,0 +1,86 @@
+#Arithmetic operator
+a=10
+b=5
+r1=a+b
+r2=a-b
+r3=a*b
+r4=a**b
+x=7
+y=3
+r5=x%y
+r6=x//y
+r7=x/y
+print("Addition of a & b =", r1)
+print("Subtraction =", r2)
+print("Multiplication =", r3)
+print('Exponent = ', r4)
+print('Modulus = ', r5)
+print('Floor Division =', r6)
+print('Division = ', r7)
+
+# Comparision operator
+a=25
+b=15
+r1=(a==b)
+r2=(a!=b)
+r3=(a>b)
+r4=(a<b)
+r5=(a>=b)
+r6=(a<=b)
+print('The comparision values are = ', r1)
+print(r2)
+print(r3)
+print(r4)
+print(r5)
+print(r6)'''
+
+#Assignment operator
+p=15
+q=3
+r=p+q
+print(r)
+r+=q          #This operation is similar to r=r+q
+print(r)
+r-=q
+print(r)
+r*=q
+print(r)
+r/=q
+print(r)
+r**=q
+print(r)
+r%=q
+print(r)
+r//=q
+print(r)
+
+#Bit wise Operators
+a=6
+b=5
+r1=a&b
+print('Bitwise AND =', r1)
+r1=a|b
+print('Bitwise OR =', r1)
+r1=a^b
+print('Bitwise XOR =', r1)
+r1=~a
+print('Negate A =', r1)
+
+
+Bitwise operators
+Bitwise operators act on operands as if they were string of binary digits. It operates bit by bit, hence the name.
+
+For example, 2 is 10 in binary and 7 is 111.
+
+In the table below: Let x = 10 (0000 1010 in binary) and y = 4 (0000 0100 in binary)
+
+Bitwise operators in Python
+Operator	Meaning	Example
+&	Bitwise AND	x& y = 0 (0000 0000)
+|	Bitwise OR	x | y = 14 (0000 1110)
+~	Bitwise NOT	~x = -11 (1111 0101)
+^	Bitwise XOR	x ^ y = 14 (0000 1110)
+>>	Bitwise right shift	x>> 2 = 2 (0000 0010)
+<<	Bitwise left shift	x<< 2 = 40 (0010 1000)
+
+
